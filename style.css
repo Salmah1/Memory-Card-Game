@@ -90,10 +90,11 @@ body {
   backface-visibility: hidden;
   transition: transform 0.25s linear;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  background: var(--primary-color);
 }
 
 .card .front-view span {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: 40px;
 }
 
